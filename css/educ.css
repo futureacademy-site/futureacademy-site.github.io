@@ -1,0 +1,418 @@
+body{
+	font-family: 'Poppins', sans-serif;
+}
+.navigation-bar{
+	max-width: 1200px;
+	margin: 0 auto 0 auto;
+	min-width: 300px;
+	height: 65px;
+	padding: 15px 50px 10px 50px;
+}
+.navigation-bar .navigation-logo h1{
+	font-size: 30px;
+	color: #116530;
+	font-weight: 600;
+}
+.navigation-bar .navigation-logo{
+	float: left;
+	width: 260px;
+}
+.navigation-bar .navigation-logo .toggle-navigation{
+	display: none;
+}
+.navigation-bar .navigation-list{
+	float: right;
+	width: calc(260px-100%);
+}
+.navigation-bar .navigation-list ul{
+	float: right;
+	list-style: none;
+}
+.navigation-bar .navigation-list ul li{
+	display: inline-block;
+	padding: 5px 30px;
+}
+.navigation-bar .navigation-list ul li a{
+	color: black;
+	font-size: 15px;
+	font-weight: 500;
+	text-decoration: none;
+
+}
+.navigation-bar .navigation-list ul .active {
+	background-color: #116530;
+}
+.navigation-bar .navigation-list ul .active > a{
+	color: #fff;
+}
+.header-section{
+	width: 100%;
+	height: 700px;
+	background-image: url('../images/bg.jpg');
+	background-size: cover;
+}
+.header-section .header-wrapper{
+	width: 100%;
+	height: 700px;
+	background-color:rgba(0, 0, 0,.8);
+}
+
+.header-section .header-wrapper .container{
+	padding: 15px 50px 10px 50px;
+}
+
+.header-section .header-wrapper .container-margin{
+	padding-top: 150px;
+}
+
+.header-section .header-wrapper .container h1{
+	color: #116530;
+	margin: 0px 0 10px 0;
+	font-size: 55px;
+	font-weight: 800;
+	font-family: sans-serif;
+	letter-spacing: 5px;
+}
+
+.header-section .header-wrapper .container h1 span{
+	font-size: 55px;
+	color: #FFCC1D;
+	font-weight: 600;
+}
+.header-section .header-wrapper .container p{
+	color: white;
+	margin-bottom: 40px;
+}
+
+.header-section .header-wrapper .container a{
+	background-color: #0B4619;
+	padding: 10px 30px;
+	color: #fff;
+	text-decoration: none;
+}
+.header-section .header-wrapper .container a:hover{
+	background-color:rgba(0, 0, 0,0);
+	border: 2px solid #0B4619;
+	text-decoration: underline;
+}
+
+.header-section .header-wrapper .container .img-header-list{
+	margin-top: 80px;
+}
+
+.header-section .header-wrapper .container .img-header{
+	width: 100px;
+	height: 100px
+}
+
+
+.welcome-section{
+	padding-top: 50px;
+}
+
+.welcome-section h1{
+	text-align: center;
+	font-size: 30px;
+	color: #116530;
+	font-weight: 700;
+
+}
+
+.welcome-section p{
+	text-align: center;
+	margin-bottom: 30px;
+}
+
+.welcome-section .row .img-title{
+	font-size: 18px;
+	margin-top: 30px;
+	font-weight: 500;
+
+}
+
+.m-v-section{
+	margin-top: 40px;
+	width: 100%;
+	height: auto;
+	background-image: url('../images/mv-bg.png');
+	background-size: cover;
+}
+.m-v-section .m-v-wrapper{ 
+	padding: 50px 0; 
+	width: 100%; 
+	height:auto;
+ 	background-color:rgba(11, 70, 25,.8); 
+
+ }
+
+.m-v-section .m-v-wrapper .container .row h1{
+ 	color: white;
+ 	font-size: 30px;
+ 	font-weight: 600;
+ 	margin-top: 20px;
+}
+
+.m-v-section .m-v-wrapper .container .row p{
+ 	color: #FFCC1D;
+ 	font-weight: 400;
+ 	margin-top: 30px;
+}
+
+.teams-section{
+ 	padding: 30px 0 50px 0;
+	width: 100%;
+	height: auto;
+}
+
+.teams-section .container h1{
+ 	text-align: center;
+ 	font-size: 30px;
+ 	margin-bottom: 60px;
+ 	font-weight: 600;
+ }
+
+ .teams-section .container h2{
+ 	text-align: center;
+ 	font-size: 18px;
+ 	margin-top: 10px;
+ 	font-weight: 600;
+ }
+
+.teams-section .container p{
+ 	text-align: center;
+ }
+
+.teams-section .container .items{
+   	box-shadow: inset 30px 40px 70px rgba(11, 70, 25, .5);
+   	border-radius: 10px;
+  }
+.teams-section .container .items .hover-items{
+  	width: 100%;
+  	height: 100%;
+  	background: rgba(11, 70, 25, .8);
+  	position: absolute;
+  	top: 0;	
+  	right: 0;
+  	display: none;
+  }
+.teams-section .container .items .hover-items .social-logo{
+  	color: white;
+  	margin-bottom: 10px;
+  	font-size: 30px;
+  }
+
+.teams-section .container .items:hover > .hover-items{
+  	display: grid;
+  	align-content: center;
+  	justify-content: center;
+  }
+
+.footer-section{
+	width: 100%;
+	height: 500px;
+	background-image: url('../images/footer-bg.webp');
+	background-size: cover;
+}
+.footer-section .footer-wrapper{ 
+	padding-top: 50px;
+	width: 100%; 
+	height:500px;
+	background-color:rgba(0, 0,0,.9); 
+}
+.footer-section .footer-wrapper .container .row h1{
+	color: #116530;
+	font-weight: 600;
+	font-size: 40px;
+	margin-bottom: 30px;
+}
+.footer-section .footer-wrapper .container .row h1 span{
+	color: #FFCC1D;
+}
+.footer-section .footer-wrapper .container .row  p {
+	color: white;
+}
+
+.footer-section .footer-wrapper .container .row .social-logo{
+	color: white;
+	font-size: 30px;
+	margin-right: 20px;
+	margin-bottom: 50px;
+}
+
+.footer-section .footer-wrapper .container .row .back-to-top{
+	padding: 10px 30px;
+	color: white;
+	text-decoration: none;
+	border-radius: 20px;
+	background-color: #116530;
+}
+
+
+/*// Extra small devices (portrait phones, less than 576px)*/
+@media (max-width: 575.98px) { 
+
+	.navigation-bar {
+		padding: 10px 30px 0 30px;
+		height: 55px;
+	}
+
+	.navigation-bar .navigation-logo{
+		width: 100%;
+	}
+	.navigation-bar .navigation-logo .toggle-navigation{
+		display: block;
+		float: right;
+		font-size: 35px;
+		margin-top: -45px;
+	}
+	.navigation-bar .navigation-list{
+		display: none;
+	}
+
+	.header-section{
+		height: 600px;
+	}
+	.header-section .header-wrapper{
+		height: 600px;
+	}
+	.header-section .header-wrapper .container-margin{
+		padding: 100px 20px 10px 30px ;
+	}
+
+	.header-section .header-wrapper .container h1{
+		font-size: 45px;
+		letter-spacing: 0;
+		text-align: center;
+	}
+
+	.header-section .header-wrapper .container h1 span{
+		font-size: 40px;
+	}
+	.header-section .header-wrapper .container p{
+		text-align: center;
+	}
+	.header-section .header-wrapper .container a{
+		position: absolute;
+		right:32%;
+	}
+	.header-section .header-wrapper .container-margin .img-header-list{
+		margin-top: 100px;
+	}
+	.header-section .header-wrapper .container .img-header{
+		width: 70px;
+		height: 70px;
+	}
+	.welcome-section .row .img-title{
+		font-size: 15px;
+		margin-top: 20px;
+	}
+	.m-v-section .m-v-wrapper .container .row p br{
+		display: none;
+	}
+	.m-v-section .m-v-wrapper .container .row p{
+		font-size: 13px;
+		margin-top: 10px;
+	}
+
+	.teams-section .container h1{
+ 		margin-bottom: 30px;
+
+ 	}
+ 	.teams-section .container h2{
+ 		color: #116530;
+ 		font-size: 15px;
+ 	}
+ 	.teams-section .container p{
+ 		font-size: 13px;
+ 	}
+ 	.navigation-bar .navigation-list{
+		display: none;
+		width: 100%;
+		background: white;
+		margin: 45px 0 0 0 ;
+		left: 0;
+		height: 600px;
+		position: absolute;
+		z-index: 1;
+	}
+	.navigation-bar .navigation-list ul {
+		float: left;
+		width: 90%;
+	}
+	.navigation-bar .navigation-list ul li{
+		display: block;
+		margin-top: 10px;
+	}
+	.solo-center{
+		margin-top: 40px;
+	}
+}
+
+/*// Small devices (landscape phones, 576px and up)*/
+@media (min-width: 576px) and (max-width: 767.98px){ 
+
+	.container-margin{
+		margin: 0 0 0 10px;
+	}
+	.navigation-bar {
+		padding: 10px 30px 0 30px;
+		height: 55px;
+	}
+	.header-section .header-wrapper .container h1{
+		font-size: 40px;
+	}
+	.navigation-bar .navigation-logo{
+		width: 100%;
+	}
+	.navigation-bar .navigation-logo .toggle-navigation{
+		display: block;
+		float: right;
+		font-size: 35px;
+		margin-top: -45px;
+	}
+
+	.navigation-bar .navigation-list{
+		display: none;
+		width: 100%;
+		background: white;
+		margin: 45px 0 0 0 ;
+		left: 0;
+		height: 600px;
+		position: absolute;
+		z-index: 1;
+	}
+	.navigation-bar .navigation-list ul {
+		float: left;
+		width: 90%;
+	}
+	.navigation-bar .navigation-list ul li{
+		display: block;
+		margin-top: 10px;
+	}
+	.solo-center{
+		margin-top: 40px;
+	}
+
+}
+
+/*// Medium devices (tablets, 768px and up)*/
+@media (min-width: 768px) and (max-width: 991.98px) {
+	.container-margin{
+		margin: 0 0 0 30px;
+	}
+	.navigation-bar{
+		padding: 15px 25px 10px 25px;
+	}
+	 .navigation-bar .navigation-list{
+	 	display: block !important;
+	 }
+	 .solo-center{
+		margin-top: 40px;
+	}
+}
+
+@media (min-width: 991.98px) {
+	.navigation-bar .navigation-list{
+	 	display: block !important;
+	 }
+}
